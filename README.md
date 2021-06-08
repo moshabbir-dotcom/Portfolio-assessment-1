@@ -1,5 +1,5 @@
 # Portfolio-assessment-1
-A simple website for a bespoke personal training service providing 1 to 1 or 2 to 1 sessions in a fully private air conditioned and COVID safe environment.
+A simple website for a bespoke personal training service providing 1 to 1 or 1 to 2 sessions in a fully private air conditioned and COVID safe environment.
 #h1 FEATURES
 ##h2 EXISTING FEATURES
 ###h3 Navigation Menu- On all pages of the website allowing for ease of identification and navigation of site to the homepage, gallery and signup pages. This will allow for ease of moving between sections of the website without the need to utilise the back buttons of the browser being used.
