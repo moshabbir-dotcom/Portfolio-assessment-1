@@ -16,3 +16,8 @@ a:hover {
 	color: #f8514b;
 	
 }
+
+header, footer {
+    background-image: url("../media/images/invert883.png");
+	background-attachment: fixed;
+}
