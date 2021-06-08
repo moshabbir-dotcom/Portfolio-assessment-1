@@ -31,6 +31,7 @@ header, footer {
     background-image: url("../media/images/invert883.png");
 	background-attachment: fixed;
     text-align: center;
+    border: 3px solid #bbbbbb;
 }
 
 
