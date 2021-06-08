@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+
 body {
 	background-color:#333333;
 	background-image: url(../media/images/bur906.jpg);
@@ -6,10 +8,18 @@ body {
 	padding: 15px;
     color: #bbbbbb;
     font-size: large;
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2 {
+    font-family: Noto Sans JP, sans-serif;
+    text-transform: uppercase;
 }
 
 a {
 	color: #bbbbbb;
+    font-size: larger;
+    text-align: center;
 }
 
 a:hover {
@@ -20,4 +30,22 @@ a:hover {
 header, footer {
     background-image: url("../media/images/invert883.png");
 	background-attachment: fixed;
+    text-align: center;
+}
+
+
+.social-media li {
+    display: inline;
+    
+}
+
+.social-media i {
+    font-size: 170%;
+    margin: 0.5%;
+    padding: 1%;
+}
+
+.social-media:hover {
+	color: #f8514b;
+	
 }
