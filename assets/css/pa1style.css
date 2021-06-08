@@ -34,6 +34,12 @@ header, footer {
     border: 3px solid #bbbbbb;
 }
 
+section > img {
+    clear: both;
+    max-width: 350px;
+    max-height: 450px;
+}
+
 
 .social-media li {
     display: inline;
