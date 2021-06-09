@@ -25,13 +25,16 @@
         <fieldset>
             <legend><h2>Personal Details</h2></legend>
             <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
+            <input class="text-input" id="fname" name="first_name" type="text" placeholder="Anne" required>
             
             <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" name="last_name" type="text" required>
+            <input class="text-input" id="lname" name="last_name" type="text" placeholder="Other" required>
             
             <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
+            <input class="text-input" type="email" id="email" name="email_address" placeholder="email@domain.com" required>
+
+            <label for="mobile">Contact Number</label>
+            <input type="tel" id="mobile" name="mobile_number" pattern="[0-9]{5}-[0-9]{6}" placeholder="01234567890" required>
         </fieldset>
         <fieldset>
             <legend><h2>Age</h2></legend>
@@ -51,31 +54,38 @@
 			<legend><h2>Primary reason for programme</h2></legend>
             <label for="muscle_size">Muscle size & Composition</label>
             <input type="radio" id="muscle_size" name="primary_reason" value="muscle" required>
-            <label for="cardio">Cardiovascular Condition</label>
+            <label for="cardio">Cardiovascular Conditioning</label>
             <input type="radio" id="cardio" name="primary_reason" value="cardio" required>
             <label for="hitt">H.I.T.T.</label>
             <input type="radio" id="hitt" name="primary_reason" value="hitt" required>
+            <label for="weight_loss">Weight Loss</label>
+            <input type="radio" id="weight_loss" name="primary_reason" value="weight_loss" required>
+            <label for="weight_gain">Weight Gain</label>
+            <input type="radio" id="weight_gain" name="primary_reason" value="weight_gain" required>
 			<label for="hybrid">Hybrid Sessions</label>
-            <input type="radio" id="50-59" name="primary_reason" value="hybrid" required>
+            <input type="radio" id="hybrid" name="primary_reason" value="hybrid" required>
         </fieldset>
 
         <fieldset>
             <legend><h2>Are there any specialist conditions to adjust for?</h2></legend>
             <label for="diabetes">Diabetes</label>
-            <input type="checkbox" id="diabetes" name="medical_condition" value="diabetes">
+            <input type="checkbox" id="diabetes" name="medical_condition" value="diabetes" required >
             <label for="obesity">Obesity</label>
-            <input type="checkbox" id="obesity" name="medical_condition" value="obesity">
+            <input type="checkbox" id="obesity" name="medical_condition" value="obesity" required>
             <label for="back_pain">Back pain</label>
-            <input type="checkbox" id="back_pain" name="medical_condition" value="back_pain">
+            <input type="checkbox" id="back_pain" name="medical_condition" value="back_pain" required>
             <label for="depression">Depression</label>
-            <input type="checkbox" id="depression" name="medical_condition" value="depression">
+            <input type="checkbox" id="depression" name="medical_condition" value="depression" required>
+            <label for="nutrition">Nutrient Deficiency</label>
+            <input type="checkbox" id="nutrition" name="medical_condition" value="nutrition" required>
             <label for="non_applicable">Non Applicable</label>
-            <input type="checkbox" id="non_applicable" name="medical_condition" value="non_applicable">
+            <input type="checkbox" id="non_applicable" name="medical_condition" value="non_applicable" required>
         </fieldset>
             <br>
-            <input class="join-button" type="submit" value="Let's do this!">
+            <input class="contact-button" type="submit" value="Let's do this!">
         </form>
     </section>
+    <br>
     <footer>
         <img src="/assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/>
         <br>
