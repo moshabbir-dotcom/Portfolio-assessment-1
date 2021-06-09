@@ -16,7 +16,7 @@ A simple website for a bespoke personal training service providing 1 to 1 or 1 t
 
 #h1 GALLERY- Static pictures of equipment avaialble in the private studio as well as images of equipment in use with video files to aid in engagment and further build on the benefits of the service.
 
-#h1 CONTACT PAGE-
+#h1 CONTACT PAGE- Basic level contact information for a callback or follow up email with requests for key information that a specialist personal trainer would need to be aware of before discussing suitable programmes.
 
 #h1 TESTING
 
@@ -24,8 +24,13 @@ A simple website for a bespoke personal training service providing 1 to 1 or 1 t
 
 #h2 DEPLOYMENT
 
-#h1 CREDITS
+#h1 CREDITS- Code for the form was resused from my challenge 2 submission at the end of the running walkthrough. This was then adjusted and added to in order to make it relevant for what the CONTACT page was trying to achieve.
 
 #h2 CONTENT
 
-#h2 MEDIA
+#h2 MEDIA- All photos and videos are copyright of Muscle Genie and used with permission.
+
+#h2 OPPORTUNITIES- 
+If deploying as a live site the images would be compressed to be optimised for web viewing in order to speed up page load times and use less cloud storage.
+
+As more specialist health & fitness services begin to be offered the contact form can be updated with the options that are looking to be offered in the future such as fire cupping/ Hijama and other complimentary therapys.
