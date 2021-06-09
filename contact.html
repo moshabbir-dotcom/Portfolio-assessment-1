@@ -22,6 +22,8 @@
         <!--insert contact form on this page-->
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2><i class="fas fa-dumbbell"></i> Let's make your health and fitness wishes come true! <i class="fas fa-heartbeat"></i></h2>
+        <fieldset>
+            <legend><h2>Personal Details</h2></legend>
             <label for="fname">First Name</label>
             <input class="text-input" id="fname" name="first_name" type="text" required>
             
@@ -30,8 +32,9 @@
             
             <label for="email">Email Address</label>
             <input class="text-input" type="email" id="email" name="email_address" required>
-            
-            <h2>Age</h2>
+        </fieldset>
+        <fieldset>
+            <legend><h2>Age</h2></legend>
             <label for="18-29">18 to 29yrs</label>
             <input type="radio" id="18-29" name="age_range" value="20-29" required>
             <label for="30-39">30 to 39yrs</label>
@@ -42,13 +45,37 @@
             <input type="radio" id="50-59" name="age_range" value="50-59" required>
             <label for="60+">60+</label>
             <input type="radio" id="60+" name="age_range" value="60+" required>
-			
-			
-            
+        </fieldset>
+
+        <fieldset>
+			<legend><h2>Primary reason for programme</h2></legend>
+            <label for="muscle_size">Muscle size & Composition</label>
+            <input type="radio" id="muscle_size" name="primary_reason" value="muscle" required>
+            <label for="cardio">Cardiovascular Condition</label>
+            <input type="radio" id="cardio" name="primary_reason" value="cardio" required>
+            <label for="hitt">H.I.T.T.</label>
+            <input type="radio" id="hitt" name="primary_reason" value="hitt" required>
+			<label for="hybrid">Hybrid Sessions</label>
+            <input type="radio" id="50-59" name="primary_reason" value="hybrid" required>
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>Are there any specialist conditions to adjust for?</h2></legend>
+            <label for="diabetes">Diabetes</label>
+            <input type="checkbox" id="diabetes" name="medical_condition" value="diabetes">
+            <label for="obesity">Obesity</label>
+            <input type="checkbox" id="obesity" name="medical_condition" value="obesity">
+            <label for="back_pain">Back pain</label>
+            <input type="checkbox" id="back_pain" name="medical_condition" value="back_pain">
+            <label for="depression">Depression</label>
+            <input type="checkbox" id="depression" name="medical_condition" value="depression">
+            <label for="non_applicable">Non Applicable</label>
+            <input type="checkbox" id="non_applicable" name="medical_condition" value="non_applicable">
+        </fieldset>
+            <br>
             <input class="join-button" type="submit" value="Let's do this!">
         </form>
     </section>
-    <section></section>
     <footer>
         <img src="/assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/>
         <br>
