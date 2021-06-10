@@ -11,7 +11,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Noto Sans JP, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -88,4 +88,27 @@ section > img {
     color: #333333;
     background-color: #f8514b;
 
+}
+
+#benefits-container {
+    height: 1200px
+}
+
+.left-align {
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.right-align {
+    padding-top: 20px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.middle-align {
+    width: 33%;
+    margin: 0 auto;
 }
