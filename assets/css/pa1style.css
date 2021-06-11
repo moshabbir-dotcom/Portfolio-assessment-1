@@ -65,6 +65,22 @@ div > h3 {
     color: #f8514b;
 }
 
+fieldset > #fname, #lname, #email, #mobile {
+    display: block;
+}
+
+fieldset > input {
+    display: inline;
+}
+
+.genie-left {
+    padding: 10px 0 0 5px;
+}
+
+.form-block {
+    display: block;
+}
+
 
 .social-media li {
     display: inline;
