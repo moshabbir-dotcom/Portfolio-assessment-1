@@ -53,6 +53,7 @@ a:hover {
 header, footer {
     background-image: url("../media/images/invert883.png");
 	background-attachment: fixed;
+    background-position: left;
     text-align: center;
     border: 3px solid #bbbbbb;
 }
@@ -60,8 +61,6 @@ header, footer {
 .images {
     margin: 0 auto;
     clear: both;
-    column-count: 4;
-    column-gap: 0;
     line-height: 0;
     width: 100%;
 }
@@ -70,10 +69,24 @@ section > img {
     width: 100%;
 }
 
+.ititle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f8514b;
+}
+
+.ititle h3 {
+    margin: 10px 0 20px;
+}
+
 @media (min-width: 768px) {
     section > img {
         width: 50%;
     }
+}
+.video {
+    width: 100%
 }
 
 @media (min-width: 1024px) {
@@ -162,6 +175,7 @@ fieldset > input {
     width: 50%;
     text-align: center;
     display: inline;
+    padding-right: 7.5px;
 }
 
 .right-align {
@@ -169,4 +183,5 @@ fieldset > input {
     width: 50%;
     text-align: center;
     display: inline;
+    padding-left: 7.5px;
 }
