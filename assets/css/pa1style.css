@@ -140,6 +140,11 @@ fieldset > input {
 	
 }
 
+.tag-center {
+    display: flex;
+    align-items: center;
+}
+
 .contact-button {
     color: #f8514b;
     background-color: #333333;

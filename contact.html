@@ -20,7 +20,7 @@
     <header><img src="/assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/><h1>Bespoke & Private personal training</h1></header>
     <section class="main-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2><i class="fas fa-dumbbell"></i> Let's make your health and fitness wishes come true! <i class="fas fa-heartbeat"></i></h2>
+            <h2 class="tag-center"><i class="fas fa-dumbbell"></i> Let's make your health and fitness wishes come true! <i class="fas fa-heartbeat"></i></h2>
         <fieldset>
             <legend><h2>Personal Details</h2></legend>
             <label for="fname">First Name</label>
@@ -37,48 +37,82 @@
         </fieldset>
         <fieldset>
             <legend><h2>Age</h2></legend>
-            <label for="18-29">18 to 29yrs</label>
-            <input type="radio" id="18-29" name="age_range" value="20-29" required>
-            <label for="30-39">30 to 39yrs</label>
-            <input type="radio" id="30-39" name="age_range" value="30-39" required>
-            <label for="40-49">40 to 49yrs</label>
-            <input type="radio" id="40-49" name="age_range" value="40-49" required>
-			<label for="50-59">50 to 59yrs</label>
-            <input type="radio" id="50-59" name="age_range" value="50-59" required>
-            <label for="60+">60+</label>
-            <input type="radio" id="60+" name="age_range" value="60+" required>
+            <div>
+                <input type="radio" id="18-29" name="age_range" value="20-29" required>
+                <label for="18-29">18 to 29yrs</label>
+            </div>
+            <div>
+                <input type="radio" id="30-39" name="age_range" value="30-39" required>
+                <label for="30-39">30 to 39yrs</label>
+            </div>
+            <div>
+                <input type="radio" id="40-49" name="age_range" value="40-49" required>
+                <label for="40-49">40 to 49yrs</label>
+            </div>
+            <div>
+                <input type="radio" id="50-59" name="age_range" value="50-59" required>
+                <label for="50-59">50 to 59yrs</label>
+            </div>
+            <div>
+                <input type="radio" id="60+" name="age_range" value="60+" required>
+                <label for="60+">60+</label>
+            </div>
         </fieldset>
 
         <fieldset>
 			<legend><h2>Primary reason for programme</h2></legend>
-            <label for="muscle_size">Muscle size & Composition</label>
-            <input type="radio" id="muscle_size" name="primary_reason" value="muscle" required>
-            <label for="cardio">Cardiovascular Conditioning</label>
-            <input type="radio" id="cardio" name="primary_reason" value="cardio" required>
-            <label for="hitt">H.I.T.T.</label>
-            <input type="radio" id="hitt" name="primary_reason" value="hitt" required>
-            <label for="weight_loss">Weight Loss</label>
-            <input type="radio" id="weight_loss" name="primary_reason" value="weight_loss" required>
-            <label for="weight_gain">Weight Gain</label>
-            <input type="radio" id="weight_gain" name="primary_reason" value="weight_gain" required>
-			<label for="hybrid">Hybrid Sessions</label>
-            <input type="radio" id="hybrid" name="primary_reason" value="hybrid" required>
+            <div>
+                <input type="radio" id="muscle_size" name="primary_reason" value="muscle" required>
+                <label for="muscle_size">Muscle size & Composition</label>
+            </div>
+            <div>
+                <input type="radio" id="cardio" name="primary_reason" value="cardio" required>
+                <label for="cardio">Cardiovascular Conditioning</label>
+            </div>
+            <div>
+                <input type="radio" id="hitt" name="primary_reason" value="hitt" required>
+                <label for="hitt">H.I.T.T.</label>
+            </div>
+            <div>
+                <input type="radio" id="weight_loss" name="primary_reason" value="weight_loss" required>
+                <label for="weight_loss">Weight Loss</label>
+            </div>
+            <div>
+                <input type="radio" id="weight_gain" name="primary_reason" value="weight_gain" required>
+                <label for="weight_gain">Weight Gain</label>
+            </div>
+            <div>
+                <input type="radio" id="hybrid" name="primary_reason" value="hybrid" required>
+                <label for="hybrid">Hybrid Sessions</label>
+            </div>
         </fieldset>
 
         <fieldset>
             <legend><h2>Are there any specialist conditions to adjust for?</h2></legend>
-            <label for="diabetes">Diabetes</label>
-            <input type="checkbox" id="diabetes" name="medical_condition" value="diabetes" required >
-            <label for="obesity">Obesity</label>
-            <input type="checkbox" id="obesity" name="medical_condition" value="obesity" required>
-            <label for="back_pain">Back pain</label>
-            <input type="checkbox" id="back_pain" name="medical_condition" value="back_pain" required>
-            <label for="depression">Depression</label>
-            <input type="checkbox" id="depression" name="medical_condition" value="depression" required>
-            <label for="nutrition">Nutrient Deficiency</label>
-            <input type="checkbox" id="nutrition" name="medical_condition" value="nutrition" required>
-            <label for="non_applicable">Non Applicable</label>
-            <input type="checkbox" id="non_applicable" name="medical_condition" value="non_applicable" required>
+            <div>
+                <input type="checkbox" id="diabetes" name="medical_condition" value="diabetes" required >
+                <label for="diabetes">Diabetes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="obesity" name="medical_condition" value="obesity" required>
+                <label for="obesity">Obesity</label>
+            </div>
+            <div>
+                <input type="checkbox" id="back_pain" name="medical_condition" value="back_pain" required>
+                <label for="back_pain">Back pain</label>
+            </div>
+            <div>
+                <input type="checkbox" id="depression" name="medical_condition" value="depression" required>
+                <label for="depression">Depression</label>
+            </div>
+            <div>
+                <input type="checkbox" id="nutrition" name="medical_condition" value="nutrition" required>
+                <label for="nutrition">Nutrient Deficiency</label>
+            </div>
+            <div>
+                <input type="checkbox" id="non_applicable" name="medical_condition" value="non_applicable" required>
+                <label for="non_applicable">Non Applicable</label>
+            </div>
         </fieldset>
             <br>
             <input class="contact-button" type="submit" value="Let's do this!">
