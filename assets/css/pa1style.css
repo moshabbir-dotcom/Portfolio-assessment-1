@@ -120,6 +120,10 @@ fieldset > input {
     display: block;
 }
 
+.social-media {
+    padding-left: 0;
+}
+
 .social-media li {
     display: inline;
     
@@ -143,11 +147,8 @@ fieldset > input {
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
-    position: relative;
-    top: 50%;
-    left: 40%;
     display: block;
-    width: 20%;
+    margin: 20px auto 0;
 
 }
 
