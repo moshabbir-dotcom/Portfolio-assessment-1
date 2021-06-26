@@ -12,7 +12,10 @@ A simple website for a bespoke personal training service providing 1 to 1 or 1 t
 *Personalised service does not allow for online bookings as client base should remain exclusive to remain premium however there is opportunity to adapt the business model to allow for this. (Will involve backend coding work- See opportunities)
 #h1 Navigation Menu- 
 On all pages of the website allowing for ease of identification and navigation of site to the homepage, gallery and signup pages. This will allow for ease of moving between sections of the website without the need to utilise the back buttons of the browser being used. Line break has been used to create space from the header section.
-#h1<!--Enter wireframe mockups here-->
+#h1
+[](assets/media/images/portfolio1_mobile_wire framea.jpg)
+[](assets/media/images/portfolio1_desktop_wireframea.jpg)
+[](assets/media/images/portfolio1_desktop_wireframeb.jpg)
 
 #h1 LANDING PAGE- 
 The image used on the landing page is an inversion of the "genie" logo trademarked to muscle genie and is used across all pages to allow for consistancy and brand awareness. The HEADER and FOOTER have the same image fixed in the background to give the pages the illusion of "rolling" over the background picture. Reason for inversion of "genie" picture is to allow for aesthetically pleasing colour break whilst still allowing for font colours that are visible on both backrounds as well as fallback backgrounds.
