@@ -45,14 +45,21 @@ h1, h2, h3 {
 }
 
 nav {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+
+.navlinkbox {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav  a {
-    margin: 0 50px;
+    /* margin: 0 50px; */
 }
+
 
 a {
 	color: #bbbbbb;
@@ -97,31 +104,9 @@ section > img {
     margin: 10px 0 20px;
 }
 
-@media (min-width: 768px) {
-    section > img {
-        width: 50%;
-        border: 1px;
-    }
-}
+
 .video {
     width: 100%
-}
-
-@media (min-width: 1024px) {
-    section > img {
-        width: 25%;
-        border: 1px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .question-section {
-        padding: 15px 155px;
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap; 
-    }
 }
 
 div > h3 {
@@ -194,8 +179,13 @@ fieldset > input {
 }
 
 #benefits-container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
+}
+
+.bentext {
+    width: 80%;
+    margin: 0 auto 50px;
 }
 
 #media-container {
@@ -234,4 +224,37 @@ fieldset > input {
 
 .specialist_selection > div {
     padding: 15px 0;
+}
+
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        margin: 10px;
+    }
+
+    #benefits-container {
+        display: flex;
+    }
+    
+    section > img {
+        width: 50%;
+        border: 1px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .question-section {
+        padding: 15px 155px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    section > img {
+        width: 25%;
+        border: 1px;
+    }
 }
