@@ -56,9 +56,6 @@ nav {
     justify-content: space-evenly;
 }
 
-nav  a {
-    /* margin: 0 50px; */
-}
 
 
 a {
@@ -118,9 +115,9 @@ div > h3 {
     text-transform: capitalize;
 }
 
-fieldset > #fname, #lname, #email, #mobile {
+#fname, #lname, #email, #mobile {
     display: block;
-    width: 50%
+    width: 100%
 }
 
 fieldset > input {
@@ -243,16 +240,28 @@ fieldset > input {
         width: 50%;
         border: 1px;
     }
+
+    .personal-detail {
+        display: flex;
+        justify-content: space-between;
+    }  
+
+    #fname, #lname, #email, #mobile {
+        width: 75%;
+    }
+
+    .age_selection, .primary_selection, .specialist_selection {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .age_selection div, .primary_selection div, .specialist_selection div{
+        width: 50%;
+    }
 }
 
 @media (min-width: 1024px) {
-    .question-section {
-        padding: 15px 155px;
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap; 
-    }
     section > img {
         width: 25%;
         border: 1px;

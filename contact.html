@@ -11,32 +11,35 @@
 </head>
 <body>
     <nav>
-    <a href="index.html"><img src="assets/media/images/mgblockwhite.png" width= 100px alt="Genie" class="genie-left" a href="index.html"/></a>
-    <div>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html" class="active">Contact</a>
-    </div>    
+        <a href="index.html"><img src="assets/media/images/mgblockwhite.png" width= 100px alt="Genie" class="genie-left" a href="index.html"/></a>
+        <div class="navlinkbox">
+            <a href="index.html" class="navlink">Home</a>
+            <a href="gallery.html" class="navlink">Gallery</a>
+            <a href="contact.html" class="navlink">Contact</a>
+        </div>
     </nav>
-    <header><img src="assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/><h1>Bespoke & Private personal training</h1></header>
+    <header>
+        <img src="assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/>
+        <h1>Bespoke & Private personal training</h1>
+    </header>
     <section class="question-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2 class="tag-center"><i class="fas fa-dumbbell"></i> Let's make your health and fitness wishes come true! <i class="fas fa-heartbeat"></i></h2>
         <fieldset>
             <legend><h2>Personal Details</h2></legend>
-            <div>
+            <div class="personal-detail">
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" placeholder="First Name" required>
             </div>
-            <div>
+            <div class="personal-detail">
                 <label for="lname">Last Name</label>
                 <input class="text-input" id="lname" name="last_name" type="text" placeholder="Last Name" required>
             </div>
-            <div>
+            <div class="personal-detail">
                 <label for="email">Email Address</label>
                 <input class="text-input" type="email" id="email" name="email_address" placeholder="email@domain.com" required>
             </div>
-            <div>
+            <div class="personal-detail">
                 <label for="mobile">Contact Number</label>
                 <input type="tel" id="mobile" name="mobile_number" pattern="[0-9]{5}-[0-9]{6}" placeholder="01234567890" required>
             </div>
@@ -120,21 +123,23 @@
                 <label for="non_applicable">Non Applicable</label>
             </div>
         </fieldset>
-            <br>
+             
             <input class="contact-button" type="submit" value="Let's do this!">
         </form>
     </section>
-    <br>
+     
     <Section id="media-container" class="map-section">
         <iframe src="https://goo.gl/maps/QGwANzfMsirHH7Db8" style="border: 1px solid #bbbbbb;" width="100%" height="450" target="_blank"></iframe>
         <p>Address: <span class="contact-muscle-genie"> 20-22 Wenlock Road, London, N1 7GU</span></p>
         <p>Call us on: <span class="contact-muscle-genie">07 86 87 GENIE (43643)</span></p>
         <p>Email us on: <span class="contact-muscle-genie">info@musclegenie.com</span></p>
     </Section>
-    <br>
+     
     <footer>
-        <img src="assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/>
-        <br>
+        <div>
+            <img src="assets/media/images/mgsponsor.png" width= 250px alt="MG Logo"/>
+        </div>
+         
         <a href="https://www.musclegenie.com/" target="_blank">CLICK HERE TO LEARN MORE ABOUT THE SITE SPONSOR</a>
         <ul class="social-media">
             <li>
