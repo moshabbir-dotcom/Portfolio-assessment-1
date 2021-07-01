@@ -16,6 +16,20 @@ On all pages of the website allowing for ease of identification and navigation o
 <img src="assets/media/images/portfolio1_mobile_wire framea.jpg">
 <img src="assets/media/images/portfolio1_desktop_wireframea.jpg">
 <img src="assets/media/images/portfolio1_desktop_wireframeb.jpg">
+# Wireframe Realisation
+## Mobile & portrait tablet
+<img src="assets/media/images/portfolio1_mobileindex.png">
+<img src="assets/media/images/portfolio1_mobilefoot.png">
+<img src="assets/media/images/portfolio1_mobilegall.png">
+<img src="assets/media/images/portfolio1_mobileform.png">
+## Landscape tablet & desktop
+<img src="assets/media/images/portfolio1_desktop_actual_index.png">
+<img src="assets/media/images/portfolio1_desktop_actual_index_body.png">
+<img src="assets/media/images/portfolio1_desktop_actual_index_footer.png">
+<img src="assets/media/images/portfolio1_desktop_actual_gallery.png">
+<img src="assets/media/images/portfolio1_desktop_actual_gallery.png">
+
+
 
 
 # LANDING PAGE- 

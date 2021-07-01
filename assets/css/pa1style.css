@@ -36,7 +36,12 @@ h1, h2, h3 {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
+}
+
+.contact-middle {
+    text-align: center;
 }
 
 .map-section {
@@ -45,7 +50,6 @@ h1, h2, h3 {
 }
 
 nav {
-    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -155,6 +159,7 @@ fieldset > input {
 .tag-center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-button {
