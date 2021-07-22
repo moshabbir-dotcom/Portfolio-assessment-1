@@ -67,7 +67,11 @@ Static pictures of equipment available in the private studio as well as images o
 Basic level contact information for a callback or follow up email with requests for key information that a specialist personal trainer would need to be aware of before discussing suitable programmes.
 
 # TESTING-
-Tested through W3C code tester for HTML and W3C for CSS with no errors.
+Tested through W3C code tester for HTML and W3C for CSS with no errors. The were warnings on all 3 html pages advising the use of h2 to h6 tags due to the word "section" being used in the html code although this was not required for this project and in future would be avoided.
+<img src="assets/media/images/cssvalidation.png">
+<img src="assets/media/images/indexhtmlvalidation.png">
+<img src="assets/media/images/galleryhtmlvalidation.png">
+<img src="assets/media/images/contacthtmlvalidation.png">
 
 
 # BUGS- 
