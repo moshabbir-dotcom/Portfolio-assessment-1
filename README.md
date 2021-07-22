@@ -73,12 +73,25 @@ Tested through W3C code tester for HTML and W3C for CSS with no errors. The were
 <img src="assets/media/images/galleryhtmlvalidation.png">
 <img src="assets/media/images/contacthtmlvalidation.png">
 
+The website was tested on MS edge, IE10, Google chrome and safari browsers.
+The website was tested on Iphone 11, Ipad 2 and Samsung galaxy s10+.
+People in the acknowledgement section and family/friends were asked to navigate the site and give feedback on any difficulties encountered.
+
 
 # BUGS- 
 Formatting issues with CSS due to default browser margins affecting code written for benefits section on the main page as well as header and footer sections. This was solved by setting a border box and sdjusting each section individually dependant on amount of content whilst keeping overall uniformity of website.
 
+When compressing video file it was compressed too much to the point the video became pixalated hence resolution was increased to provide a balance between speed of loading and video quality although when on larger screensizes pixalation is slightly visible.
+
 # DEPLOYMENT-
-<!--Enter screenshots of working site in this section-->
+The project was deployed to GitHub Pages using the following procedure:
+
+Logged in to github and selected the github repository required.
+Selected the settings option.
+Went to the github pages section.
+Under the source tab the dropdown "none" was changed to "master branch".
+The page then refreshed.
+The gihub pages section then had a link to the published page.
 
 # CREDITS- 
 Code for the form was resused from my challenge 2 submission at the end of the running walkthrough. This was then adjusted and added to in order to make it relevant for what the CONTACT page was trying to achieve.
@@ -91,8 +104,8 @@ All photos and videos are copyright of Muscle Genie and used with permission of 
 # OPPORTUNITIES- 
 As more specialist health & fitness services begin to be offered the contact form can be updated with the options that are looking to be offered in the future such as fire cupping/ Hijama and other complimentary therapies.
 
-When the complimentary therapies are launched, a online diary booking facility could be implemented.
+When the complimentary therapies are launched, a online diary booking facility could be implemented with a working form option. (This projects form is non functioning as it is only html & css.)
 
-Website storage would be reduced by using an iframe URL linked to youtube as opposed to the locally stored video file. The reason for this is that this website will not be the offical website for muscle genie which is still under development and links to ther official address have been added to the project for when the business is officially launched so uploading to youtube would not have been suitable in this instance.
+Website storage would be reduced by using an iframe URL linked to youtube as opposed to the locally stored video file. The reason for this is that this website will not be the offical website for muscle genie which is still under development and links to ther official address have been added to the project for when the business is officially launched so uploading to youtube would not have been suitable in this instance. 
 
 Not all images were able to be compressed due to free compression software not supporting file sizes greater than 5mb. Before deployment as a functioning site this would be addressed and file sizes compressed even further.
