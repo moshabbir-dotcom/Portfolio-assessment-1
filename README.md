@@ -62,12 +62,13 @@ Introduction video of short duration has been embedded into the home page in ord
 ## FOOTER- 
 As per the HEADER section it as a trademarked text logo above the website title to be the first thing the visitor sees and with the colour breaks of the site being a contrast of light and dark a "hero" colour of red has been used to draw attention to the branding and any clickable links when hovering such as the social media links and the link to the external "www.musclegenie.com" site which is going to be live before the end of 2021.
 ## GALLERY- 
-Static pictures of equipment available in the private studio as well as images of commercial equipment available to potential clients to aid in engagment and further build on interest of the bespoke service. Images have been reduced in size to improve page load speed.
+Static pictures of equipment available in the private studio as well as images of commercial equipment available to potential clients to aid in engagment and further build on interest of the bespoke service. Images have been reduced in size to improve page load speed although there are still some that were larger than would be optimal for a website due to tinypng not supporting files over 5mb without a paid subscription.
 ## CONTACT PAGE- 
 Basic level contact information for a callback or follow up email with requests for key information that a specialist personal trainer would need to be aware of before discussing suitable programmes.
 
 # TESTING-
-Tested through W3C code tester for HTML and W3C for CSS with no errors. 
+Tested through W3C code tester for HTML and W3C for CSS with no errors.
+
 
 # BUGS- 
 Formatting issues with CSS due to default browser margins affecting code written for benefits section on the main page as well as header and footer sections. This was solved by setting a border box and sdjusting each section individually dependant on amount of content whilst keeping overall uniformity of website.
@@ -77,15 +78,17 @@ Formatting issues with CSS due to default browser margins affecting code written
 
 # CREDITS- 
 Code for the form was resused from my challenge 2 submission at the end of the running walkthrough. This was then adjusted and added to in order to make it relevant for what the CONTACT page was trying to achieve.
+Credit is also given to my mentor Can Sucullu who provided me with the code to place the map on the contact page and showed me where I was going wrong in the process.
+Thanks also to Bim Williams who introduced me to the benefits of using flex as a CSS element and sent me some extra curricular reading material to understand CSS far better.
 
 # CONTENT & MEDIA-
-All photos and videos are copyright of Muscle Genie and used with permission of owner.
+All photos and videos are copyright of Muscle Genie and used with permission of owner. The muscle genie logo(s) are trademarked.
 
 # OPPORTUNITIES- 
-As more specialist health & fitness services begin to be offered the contact form can be updated with the options that are looking to be offered in the future such as fire cupping/ Hijama and other complimentary therapys.
+As more specialist health & fitness services begin to be offered the contact form can be updated with the options that are looking to be offered in the future such as fire cupping/ Hijama and other complimentary therapies.
 
 When the complimentary therapies are launched, a online diary booking facility could be implemented.
 
-Website storage would be reduced by using an iframe URL as opposed to the locally stored video file.
+Website storage would be reduced by using an iframe URL linked to youtube as opposed to the locally stored video file. The reason for this is that this website will not be the offical website for muscle genie which is still under development and links to ther official address have been added to the project for when the business is officially launched so uploading to youtube would not have been suitable in this instance.
 
-Not all images were able to be compressed due to free compression software not supporting file sizes greater than 5mb. Before deployment as a functioning site this would be addressed.
+Not all images were able to be compressed due to free compression software not supporting file sizes greater than 5mb. Before deployment as a functioning site this would be addressed and file sizes compressed even further.
