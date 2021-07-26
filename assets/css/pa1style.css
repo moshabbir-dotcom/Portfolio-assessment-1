@@ -60,6 +60,14 @@ nav {
     justify-content: space-evenly;
 }
 
+.navlink {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
 
 
 a {
@@ -249,6 +257,7 @@ fieldset > input {
     .personal-detail {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 12px;
     }  
 
     #fname, #lname, #email, #mobile {
